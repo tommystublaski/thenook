@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Nook</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+
+        .wrapper {
+            width: 1180px;
+            height: 5000px;
+            background-color: beige;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .thenook {
+            background-color: #190f3c;
+            height: 321px;
+            width: 1180px;
+            margin-bottom: 50px;
+        }
+
+        nav {
+            width: 1180px;
+            height: 80px;
+            background-color: #190f3c;
+            margin: 0 auto;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: #2d2d74;
+            cursor: hand;
+        }
+
+        a:active {
+            text-decoration: none;
+            color: white;
+        }
+
+
+        #barbra {
+            width: 1180px;
+            height: 600px;
+            background-color: #f05f81;
+            color: white;
+            text-align: center;
+        }
+
+        #home {
+            width: 1180px;
+            height: 700px;
+            background-color: red;
+            color: white;
+        }
+
+        #menu {
+            width: 1180px;
+            height: 2065px;
+            background-color: indianred;
+        }
+
+        #bowling {
+            width: 1180px;
+            height: 600px;
+            background-color: #ACDCF3;
+        }
+
+        #photos {
+            width: 1180px;
+            height: 642px;
+            background-color: black;
+        }
+
+        #contact {
+            width: 1180px;
+            height: 750px;
+            background-color: #FAE99F;
+        }
+
+        .google_map {
+            width: 500px;
+            height: 400px;
+            padding-top: 20px;
+            padding-left: 70px;
+        }
+
+
+        p {
+            display: inline;
+            padding: 0 50px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 25px;
+        }
+
+        footer {
+            width: 1180px;
+            height: 100px;
+            background-color: #190f3c;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            padding-top: 35px;
+        }
+
+        .mission_statement {
+            width: 100%;
+            position: relative;
+            text-align: justify;
+            margin-top: -53%;
+
+        }
+
+        .bowling_text {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            padding-left: 700px;
+            margin-top: -550px;
+        }
+
+        .social_icons {
+            position: absolute;
+            left: 650px;
+            bottom: -682px;
+
+        }
+
+        .address {
+            position:relative;
+            color: white;
+            font-family: Poppins,sans-serif;
+            margin-left: 760px;
+            margin-top:-306px;
+            font-size: 15pt;
+        }
+
+        .hours {
+            position:relative;
+            color: white;
+            font-family: Poppins,sans-serif;
+            margin-left: 760px;
+            margin-top:67px;
+            font-size: 15pt;
+        }
+
+        .facebook {
+            position:relative;
+            color: white;
+            font-family: Poppins,sans-serif;
+            margin-left: 760px;
+            margin-top:67px;
+            font-size: 15pt;
+        }
+
+        .phone {
+            position:relative;
+            color: white;
+            font-family: Poppins,sans-serif;
+            margin-left: 760px;
+            margin-top:77px;
+            font-size: 15pt;
+        }
+
+    </style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+
+<div id="top"></div>
+<div class="wrapper">
+
+    <div class="thenook"><img src="title.png" width="1180px"></div>
+
+    <nav>
+        <a href="#home"><p id="nav-home"><b>HOME</b></p></a>
+        <a href="#menu"><p id="nav-menu"><b>MENU</b></p></a>
+        <a href="#bowling"><p id="nav-events"><b>BOWLING</b></p></a>
+        <a href="#photos"><p id="nav-photos"><b>PHOTOS</b></p></a>
+        <a href="#contact"><p id="nav-contact"><b>CONTACT</b></p></a>
+    </nav>
+
+    <div id="barbra"><img src="babs.gif" height="600" width="1180" alt="The best Juicy Lucy I've ever had, Barbra Streisand"></div>
+
+
+    <div id="home">
+        <img style="position: relative" src="nookbuilding.png" alt="Nook Storefront" width="1180" height="700">
+        <div class="mission_statement"><h1 style="font-family:Poppins,sans-serif; font-size: 15pt; text-align: justify; text-align: center; color: black">The Nook is an Irish restaurant and pub that offers five-star burgers to its five-star customers who <br> want a taste of the juiciest patties around. Unlike other pubs in town, we offer our customers with <br> a whimsical and entertaining atmosphere, that is sure to quench your appetite!</h1></div>
+    </div>
+
+
+    <div id="menu"><img src="menu.png" alt="A full list of menu items, downloadable as a png file" width="1180" height="2065"></div>
+
+
+    <div id="bowling"><img src="bowling.gif" alt="Bowling">
+        <div class="bowling_text" style="font-size: 40pt; text-align: left;"><b>Bowling Center</b></div>
+        <div class="bowling_text" style="margin-top: 50px; font-size: 18pt;"><b>Hours of Operation:</b></div>
+        <div class="bowling_text" style="margin-top: 25px; font-size: 18pt;">Sunday-Thursday: 11am-1am<br>Friday-Saturday: 11am-2am</div>
+        <div class="bowling_text" style="margin-top: 25px; font-size: 18pt;"><b>Price:</b><br>Adults $4,<br>Kids, Seniors and Students - $3</div>
+        <div class="bowling_text" style="margin-top: 25px; font-size: 18pt;"><a href="#contact">Contact us</a> to reserve the space<br> for events.</div>
+    </div>
+
+
+    <div id="photos">
+        <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="fries.jpg" alt="Burger with Fries" style="width: 1180px;"  >
+                    </div>
+
+                    <div class="item">
+                        <img src="gooeyburger.jpg" alt="Juicy Lucy Burger" style="width: 1180px;"  >
+                    </div>
+
+                    <div class="item">
+                        <img src="storefront.jpg" alt="The Nook Storefront" style="width: 1180px;" >
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        </div>  <!--- End of Photo Div -->
+
+
+    <div id="contact">
+        <p style="font-family: Poppins, sans-serif;color: white;font-size: 110px;text-align: center;padding-top: 10px; margin-top: 15px;  padding-left: 350px;">Contact</p>
+        <div class="google_map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2824.840743546164!2d-93.15885758474266!3d44.92657407717635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f62a4836698b79%3A0x3937de2ba2efe79b!2sThe+Nook!5e0!3m2!1sen!2sus!4v1523904392993"
+                width="500" height="500" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+        <div class=address>492 Hameline Ave South, Saint Paul</div>
+        <div class="hours">Sun-Thurs:11am-1am<br>Fri-Sat: 11am-2am</div>
+        <div class="facebook"><a href="https://www.facebook.com/TheIrishNook/"> facebook.com/TheIrishNook</a></div>
+        <div class=phone>(651) 698-6347</div>
+
+        <div class="social_icons"><img src="contacticons.png" style="width: 75px;"></div>
+    </div>
+
+    <a href="#top"><footer><p>Back to top</p></footer></a>
+
+</div><!-- end of div wrapper-->
+<script>
+    $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on('click', function (event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function currentDiv(n) {
+        showDivs(slideIndex = n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-white", "");
+        }
+        x[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " w3-white";
+    }
+</script>
+</body>
+</html>
